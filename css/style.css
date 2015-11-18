@@ -1,0 +1,97 @@
+
+
+.content {
+  width: 100%;
+  border-top: 1px solid #333;
+  padding-top: 40px;
+}
+
+.touch .content {
+  height: 650px;
+}
+
+.no-touch .content {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#c1 {
+  background: url(https://raw.githubusercontent.com/jesstokes/jesstokes.github.io/master/images/Wilsons.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+#c2 {
+  background: url(https://raw.githubusercontent.com/jesstokes/jesstokes.github.io/master/images/Black-throated_Gray.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+#c3 {
+  background: url(https://raw.githubusercontent.com/jesstokes/jesstokes.github.io/master/images/Red-faced.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+#c4 {
+  background: url(https://raw.githubusercontent.com/jesstokes/jesstokes.github.io/master/images/Prairie.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.no-touch #c1 {
+  background-attachment: fixed;
+}
+
+.no-touch #c2 {
+  background-attachment: fixed;
+}
+
+.no-touch #c3 {
+  background-attachment: fixed;
+}
+
+.no-touch #c4 {
+  background-attachment: fixed;
+}
+
+.content_container {
+  margin-left: 35vw;
+  margin-top: 50px;
+  height: 450px;
+  padding: 10px;
+  max-width: 490px;
+  border-radius: 10px;
+  background-color: #fff;
+  background: rgba(255, 255, 255, .6);
+  /*background: transparent\9;
+  background: rgba(255, 255, 255, .6);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff, endColorstr=#99ffffff);
+  zoom: 1;*/
+}
+/*
+.div:nth-child(n) {
+  filter: none;
+}*/
+
+#footer {
+  background-color: #eee;
+  height: 110px;
+  border-top: 1px solid #ddd;
+}
+
+.thumbnail {
+  height: 140px;
+}
+
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30pt;
+}
+
+.cap {
+  font-size: small;
+  margin-top: -20px;
+  padding: 0;
+}
